@@ -1,11 +1,9 @@
 package model.entities;
 
 import java.io.Serializable;
-import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.Objects;
-import java.util.SimpleTimeZone;
+
 
 public class Seller implements Serializable {
 
@@ -16,8 +14,6 @@ public class Seller implements Serializable {
     private Double baseSalary;
 
     private Department department;
-
-
 
     public Seller() {}
 
