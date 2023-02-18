@@ -59,7 +59,10 @@ public class Program {
         seller2.setName("Martha Wayne");
         sellerDao.update(seller2);
 
+        System.out.println();
 
+        System.out.println("=== TEST 6: seller delete ===");
+        sellerDao.deleteById(2);
 
     }
 
